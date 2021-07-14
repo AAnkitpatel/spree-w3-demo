@@ -61,7 +61,7 @@
 #   }
 
 
-config.require_master_key = true
+#config.require_master_key = true
 
 #config.read_encrypted_secrets = true
 #
