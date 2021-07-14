@@ -60,7 +60,10 @@
 #     # password: "please use keys"
 #   }
 
-config.read_encrypted_secrets = true
+
+config.require_master_key = true
+
+#config.read_encrypted_secrets = true
 #
 server '13.127.116.176', user: 'deploy', roles: %w{app db web}
 
